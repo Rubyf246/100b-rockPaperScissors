@@ -16,14 +16,16 @@ Output: 0
 """
 
 def playerChoice():
-  '''
-  No input parameters needed.
-  Function should ask the players to make their choice.  How you ask is unimportant, but the
-  output must be consistent:
-  0: rock
-  1: paper
-  2: scissors
-  '''
+  choice = input("Enter your choice: ")
+  value = " "
+  if choice == "rock":
+    value = 0
+  elif choice == "paper":
+    value = 1
+  elif choice == "scissors":
+    value = 2
+  else: 
+    print ("Enter a valid input; rock, paper or scissor")
   return value
 
 

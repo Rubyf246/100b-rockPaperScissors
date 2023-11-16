@@ -28,7 +28,6 @@ def playerChoice():
     print ("Enter a valid input; rock, paper or scissor")
   return value
 
-
 if __name__ == "__main__":
   player = playerChoice()
   print(player)

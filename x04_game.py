@@ -11,6 +11,9 @@ from x03_winner import playerWins()
 
 
 if __name__ == "__main__":
+    playerChoice()
+    computerChoice()
+    playerWins()
 
   
 

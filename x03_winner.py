@@ -19,23 +19,26 @@ Output:
 
 def playerWins(computer,player):
   if computer == 0 and player == 1:
-    return 1
+    print ("You win")
   elif computer == 1 and player == 0:
-    return -1
+    print("You lose")
   elif computer == 1 and player == 2:
-    return 1
+    print("You win")
   elif computer == 2 and player == 1:
-    return -1 
+    print("You lose")
   elif computer == 0 and player == 2: 
-    return -1
+    print("You lose")
   elif computer == 2 and player == 0:
-    return 1
+    print("You win")
   else:
-    return 0
+    print("Tie")
+  
 
 if __name__ == "__main__":
-  assert playerWins(1,1) == 0
-  assert playerWins(1,0) == -1
-  assert playerWins(1,2) == 1
-  assert playerWins(2,1) == -1
+  lol = playerWins()
+  print(lol)
+  #assert playerWins(1,1) == 0
+  #assert playerWins(1,0) == -1
+  #assert playerWins(1,2) == 1
+  #assert playerWins(2,1) == -1
   

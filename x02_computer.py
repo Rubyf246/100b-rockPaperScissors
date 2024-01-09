@@ -12,7 +12,9 @@ import random
 def computerChoice():
   choices = 0, 1, 2
   value = random.choice (choices)
+
   return value
+  
 
 
 if __name__ == "__main__":
